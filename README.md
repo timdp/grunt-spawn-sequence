@@ -65,5 +65,5 @@ SOFTWARE.
 [npm-url]: https://npmjs.org/package/grunt-spawn-sequence
 [npm-image]: https://badge.fury.io/js/grunt-spawn-sequence.png
 
-[travis-url]: http://travis-ci.org/timdp/grunt-spawn-sequence
+[travis-url]: https://travis-ci.org/timdp/grunt-spawn-sequence
 [travis-image]: https://secure.travis-ci.org/timdp/grunt-spawn-sequence.png?branch=master
