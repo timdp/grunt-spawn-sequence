@@ -1,7 +1,7 @@
 {
   "name": "grunt-spawn-sequence",
   "description": "Runs grunt.util.spawn() in sequence.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/timdp/grunt-spawn-sequence",
   "author": {
     "name": "Tim De Pauw",
