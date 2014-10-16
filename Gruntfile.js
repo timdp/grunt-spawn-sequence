@@ -12,10 +12,13 @@ module.exports = function(grunt) {
               args: ['-l', 'LICENSE']
             },
             {
-              name: 'If the license is 22 lines long, run a dummy command',
+              name: 'Verify that the number of lines is 22',
               before: function(prevResult) {
                 return /^\s*22\s/.test(prevResult);
-              },
+              }
+            },
+            {
+              name: 'Run a dummy command',
               cmd: 'true'
             }
           ]
