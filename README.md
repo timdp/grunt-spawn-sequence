@@ -1,12 +1,10 @@
-grunt-spawn-sequence
-====================
+# grunt-spawn-sequence
 
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
+[![npm](https://img.shields.io/npm/v/grunt-spawn-sequence.svg)](https://www.npmjs.com/package/grunt-spawn-sequence) [![Build Status](https://img.shields.io/travis/timdp/grunt-spawn-sequence.svg)](https://travis-ci.org/timdp/grunt-spawn-sequence)
 
 Runs `grunt.util.spawn()` in sequence.
 
-Example
--------
+## Example
 
 ```js
 grunt.initConfig({
@@ -34,15 +32,13 @@ grunt.initConfig({
 });
 ```
 
-Author
-------
+## Author
 
-[Tim De Pauw](http://tmdpw.eu/)
+[Tim De Pauw](https://tmdpw.eu/)
 
-License
--------
+## License
 
-Copyright &copy; 2014 Tim De Pauw
+Copyright &copy; 2015 Tim De Pauw
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -61,9 +57,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-[npm-url]: https://npmjs.org/package/grunt-spawn-sequence
-[npm-image]: https://badge.fury.io/js/grunt-spawn-sequence.png
-
-[travis-url]: https://travis-ci.org/timdp/grunt-spawn-sequence
-[travis-image]: https://secure.travis-ci.org/timdp/grunt-spawn-sequence.png?branch=master
