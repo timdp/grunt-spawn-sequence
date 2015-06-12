@@ -12,9 +12,9 @@ module.exports = function(grunt) {
               args: ['-l', 'LICENSE']
             },
             {
-              name: 'Verify that the number of lines is 22',
+              name: 'Verify that the number of lines is 19',
               before: function(prevResult) {
-                return /^\s*22\s/.test(prevResult);
+                return /^\s*19\s/.test(prevResult);
               }
             },
             {
