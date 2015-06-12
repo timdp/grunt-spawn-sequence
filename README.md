@@ -19,7 +19,7 @@ grunt.initConfig({
           },
           {
             name: 'Verify that we are on the master branch and commit',
-            before: function(prevOutput) {
+            before: function (prevOutput) {
               return (prevOutput === 'master')
             },
             cmd: 'git',
