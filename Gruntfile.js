@@ -1,6 +1,6 @@
-'use strict';
+'use strict'
 
-module.exports = function(grunt) {
+module.exports = function (grunt) {
   grunt.initConfig({
     spawn_sequence: {
       test: {
@@ -13,8 +13,8 @@ module.exports = function(grunt) {
             },
             {
               name: 'Verify that the number of lines is 19',
-              before: function(prevResult) {
-                return /^\s*19\s/.test(prevResult);
+              before: function (prevResult) {
+                return /^\s*19\s/.test(prevResult)
               }
             },
             {
@@ -24,10 +24,10 @@ module.exports = function(grunt) {
           ]
         }
       }
-    },
-  });
+    }
+  })
 
-  grunt.loadTasks('tasks');
+  grunt.loadTasks('tasks')
 
-  grunt.registerTask('default', ['spawn_sequence']);
-};
+  grunt.registerTask('default', ['spawn_sequence'])
+}

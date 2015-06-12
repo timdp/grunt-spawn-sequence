@@ -1,6 +1,6 @@
 # grunt-spawn-sequence
 
-[![npm](https://img.shields.io/npm/v/grunt-spawn-sequence.svg)](https://www.npmjs.com/package/grunt-spawn-sequence) [![Build Status](https://img.shields.io/travis/timdp/grunt-spawn-sequence.svg)](https://travis-ci.org/timdp/grunt-spawn-sequence)
+[![npm](https://img.shields.io/npm/v/grunt-spawn-sequence.svg)](https://www.npmjs.com/package/grunt-spawn-sequence) [![Build Status](https://img.shields.io/travis/timdp/grunt-spawn-sequence.svg)](https://travis-ci.org/timdp/grunt-spawn-sequence) [![JavaScript Standard Style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](https://github.com/feross/standard)
 
 Runs `grunt.util.spawn()` in sequence.
 
@@ -20,7 +20,7 @@ grunt.initConfig({
           {
             name: 'Verify that we are on the master branch and commit',
             before: function(prevOutput) {
-              return (prevOutput === 'master');
+              return (prevOutput === 'master')
             },
             cmd: 'git',
             args: ['commit', '-a', '-m', 'Commit message']
@@ -28,8 +28,8 @@ grunt.initConfig({
         ]
       }
     }
-  },
-});
+  }
+})
 ```
 
 ## Author
