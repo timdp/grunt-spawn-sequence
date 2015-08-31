@@ -1,6 +1,6 @@
 # grunt-spawn-sequence
 
-[![npm](https://img.shields.io/npm/v/grunt-spawn-sequence.svg)](https://www.npmjs.com/package/grunt-spawn-sequence) [![Build Status](https://img.shields.io/travis/timdp/grunt-spawn-sequence.svg)](https://travis-ci.org/timdp/grunt-spawn-sequence) [![JavaScript Standard Style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](https://github.com/feross/standard)
+[![npm](https://img.shields.io/npm/v/grunt-spawn-sequence.svg)](https://www.npmjs.com/package/grunt-spawn-sequence) [![Dependencies](https://img.shields.io/david/timdp/grunt-spawn-sequence.svg)](https://david-dm.org/timdp/grunt-spawn-sequence) [![Build Status](https://img.shields.io/travis/timdp/grunt-spawn-sequence.svg)](https://travis-ci.org/timdp/grunt-spawn-sequence) [![JavaScript Standard Style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](https://github.com/feross/standard)
 
 Runs `grunt.util.spawn()` in sequence.
 
