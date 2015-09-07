@@ -8,10 +8,7 @@
     "email": "hi@tmdpw.eu",
     "url": "https://tmdpw.eu/"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/timdp/grunt-spawn-sequence.git"
-  },
+  "repository": "timdp/grunt-spawn-sequence",
   "bugs": {
     "url": "https://github.com/timdp/grunt-spawn-sequence/issues"
   },
